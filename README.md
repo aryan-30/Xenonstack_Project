@@ -24,6 +24,8 @@ This file code contains a form that allows users to enter username and password.
 
 7)Once user login we will redirect to the user dashboard page. Create a PHP file named dashboard.php
 After the user login, you will see the following user dashboard screen.
+![image](https://user-images.githubusercontent.com/70309674/191294073-2a48e2d4-8bd3-4dca-81a7-aa494b4239d6.png)
+
 
 8)When clicking on the logout button we have to destroy user sessions. It will redirect to the login page.
 Thus, create a file named logout.php
