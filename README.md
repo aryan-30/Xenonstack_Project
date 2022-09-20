@@ -10,6 +10,8 @@ username  – varchar(100)
 email  – varchar(100)
 password  – varchar(100)
 create_datetime – datetime
+![image](https://user-images.githubusercontent.com/70309674/191294388-dee7eec3-b3dd-4576-a285-77a175ef0fd7.png)
+
 
 3)After creating the table, we have to create a PHP MySQL connector script to connect to the MySQL database server.
 Create a file named db.php
@@ -18,9 +20,13 @@ Create a file named db.php
 
 5)Furthermore, create PHP file registration.php 
 that will create an HTML form. It will allow users to register.
+![image](https://user-images.githubusercontent.com/70309674/191294468-0e60f997-03ae-4c53-b1c4-a2f26ff2386d.png)
+
 
 6)Similarly, create a PHP file login.php 
 This file code contains a form that allows users to enter username and password.
+![image](https://user-images.githubusercontent.com/70309674/191294514-16a7c5cb-9775-4930-94e0-e76610bec88e.png)
+
 
 7)Once user login we will redirect to the user dashboard page. Create a PHP file named dashboard.php
 After the user login, you will see the following user dashboard screen.
@@ -31,3 +37,5 @@ After the user login, you will see the following user dashboard screen.
 Thus, create a file named logout.php
 
 9)Finally, important step for a user experience perspective. Create CSS file style.css
+
+Finally, our login system is ready to use
